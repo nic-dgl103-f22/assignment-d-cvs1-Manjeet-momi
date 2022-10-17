@@ -20,3 +20,79 @@ p {
   box-sizing: border-box;
   width: 500px;
 }
+
+.card-one 
+{
+  
+  background-color :hsl(0, 0%, 100%);
+  width: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top-color: hsl(180, 62%, 55%);
+  border-top: solid;
+  border-top: 3px thick;
+  box-shadow:  rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  
+}
+img{
+  border-radius: 50%;
+}
+article.card-two{
+  background-color: hsl(234, 12%, 34%);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 500px;
+  border-radius: 30px;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-image:  url("images/elephants.jpeg");
+  background-size: 60%;
+  background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%), url("images/elephants.jpeg");
+}
+h2 p .card-two{
+  color:white;
+}
+article.card-three{
+  background-color: hsl(234, 12%, 34%);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 500px;
+  border-radius: 30px;
+  background-image: url("images/pexels-photo-13420447.jpeg");
+  background-size: 50%;
+  
+
+}
+article.card-four{
+  background-color: hsl(234, 12%, 34%);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 500px;
+  border-radius: 30px;
+  background-image: url("images/pexels-photo-1438081.jpeg");
+  background-size: 50%;
+}
