@@ -58,8 +58,8 @@ article.card-two{
   border-radius: 30px;
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   background-image:  url("images/elephants.jpeg");
-  background-size: 60%;
-  background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%), url("images/elephants.jpeg");
+  background-size: 100%;
+  background-image: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(9,9,121,1) 20%, rgba(0,212,255,0) 100%), url("images/elephants.jpeg");
 }
 h2 p .card-two{
   color:white;
@@ -75,12 +75,16 @@ article.card-three{
   padding-top: 30px;
   padding-bottom: 30px;
   width: 500px;
-  border-radius: 30px;
-  background-image: url("images/pexels-photo-13420447.jpeg");
-  background-size: 50%;
+  height: 400px;
+  background-image: url("images/lion1.jfif");
+  background-size:100%;
+  }
+  .card-three h2{
+    color: rgba(34,193,195,1);
+    margin-top: -20px;
+    font-size: 3rem;
   
-
-}
+  }
 article.card-four{
   background-color: hsl(234, 12%, 34%);
   margin-top: 50px;
@@ -92,7 +96,112 @@ article.card-four{
   padding-top: 30px;
   padding-bottom: 30px;
   width: 500px;
-  border-radius: 30px;
-  background-image: url("images/pexels-photo-1438081.jpeg");
-  background-size: 50%;
+  height: 200px;
+  background-image: url("images/rum2.jfif");
+  background-size: 100%;
+  
+}
+.top
+{
+  margin-top: 43%;
+  text-align: center;
+   color: white;
+}
+.button{
+  background-color:aquamarine;
+}
+.cr{
+  background: #f00;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.video
+{
+  
+  background: #01fde9;
+  padding: 3px 10px 3px 10px;
+  border: 0px;
+
+}
+.circles
+{
+  
+  float: left;
+  width: 100%;
+  padding-left: 45%;
+  padding-top: 7px;
+
+}
+.cr {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: block;
+  float: left;
+  margin-right: 4px;
+}
+.circle-one {
+  background: #ce6563;
+}
+.circle-two{
+  background: #01fde9;
+}
+.circle-three{
+  background: #01fde9;
+}
+.bottom b{color:#fff}
+
+.card-four{
+  border: 1px solid red;padding: 8px 8px 8px 8px;width: 13%;
+}
+.crf{
+  width: 14%;
+  padding: 9px;
+}
+.topimg img{
+  border-radius:0%!important;
+}
+span.live
+{
+  
+  background: red;
+  padding: 0 4px 0 4px;
+  color: #fff;
+
+}
+span.break
+{
+  
+  background: #f7e636;
+  padding: 0 4px 0 4px;
+
+}
+p{
+  
+  color: #000;
+  font-size: 18px;
+
+}
+.artcnt p{
+  font-size: 24px
+}
+.crf
+{
+  
+ /* background: grey;*/
+
+}
+.topimg{
+  
+  background: #fff;
+  padding: 8px;
+
+}
+.topimg img{width:100%}
+.artcnt{
+  
+  background: #fff;
+  padding: 0 13px;
+
 }
